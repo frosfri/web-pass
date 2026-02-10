@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>web pass</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <!-- CADASTRO DE USUÁRIO -->
+    <div class="box">
+        <h2>Cadastro de Usuário</h2>
+
+
+        <label>Nome</label>
+        <input type="text" id="nomeUsuario">
+
+
+        <label>E-mail</label>
+        <input type="email" id="emailUsuario">
+
+
+        <button onclick="salvarUsuario()">Salvar Usuário</button>
+
+
+        <ul id="listaUsuarios"></ul>
+    </div>
+
+
+    <!-- CADASTRO DE LOCALIDADE -->
+    <div class="box">
+        <h2>Cadastro de Localidade</h2>
+
+
+        <label>Estado</label>
+        <input type="text" id="estado">
+
+
+        <label>Cidade</label>
+        <input type="text" id="cidade">
+
+
+        <button onclick="salvarLocalidade()">Salvar Localidade</button>
+
+
+        <ul id="listaLocalidades"></ul>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
